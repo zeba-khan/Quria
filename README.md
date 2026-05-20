@@ -1,3 +1,12 @@
+---
+title: Quria
+emoji: 🔬
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # 🔬 Quria — Research Intelligence
 
 > An autonomous multi-agent AI research assistant that searches, summarizes, cites, validates, and scores sources in real-time.
