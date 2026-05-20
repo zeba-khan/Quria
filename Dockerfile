@@ -9,7 +9,4 @@ COPY . .
 
 EXPOSE 7860
 
-ENV CHAINLIT_HOST=0.0.0.0
-ENV CHAINLIT_PORT=7860
-
-CMD ["chainlit", "run", "app.py", "--host", "0.0.0.0", "--port", "7860"]
+CMD ["python", "-m", "chainlit", "run", "app.py", "--host", "0.0.0.0", "--port", "7860"]
