@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-05-20 14:22",
+    "query": "write a short theory on geo politics and make a pdf of it",
+    "summary": "[Tone: STUDENT]\n\nLet's break down this research context together. \n\n**What is Geopolitics?**\nImagine you're looking at a big map of the world. Geopolitics is the study of how countries interact with each other, and how they use their power to influence global events. It's like a big game of chess, w...",
+    "credibility": "\ud83d\udfe2 HIGH | Klaus Dodds | He is a notable scholar in the field of Geopolitics, indicating expertise and credibility.\n\ud83d\udfe1 MEDIUM | John Agnew | He is a scholar associated with Critical Geopolitics, but lack..."
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-05-20 14:36",
+    "query": "what is photo synthesis",
+    "summary": "[Tone: STUDENT]\n\n**Welcome to the World of Photosynthesis**\n\nImagine you have a magic power that lets you turn sunlight into food. That's basically what plants, algae, and some bacteria can do through a process called photosynthesis. In simple terms, photosynthesis is how these living things use sun...",
+    "credibility": "\ud83d\udd34 LOW | General knowledge, no specific reference provided | Lack of specific references and potential for outdated or inaccurate information.\n\ud83d\udfe2 HIGH | Khan Academy, \"Intro to Photosynthesis\" article |..."
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-05-20 14:48",
+    "query": "what is chlorophyl",
+    "summary": "[Tone: STUDENT]\n\n**What is Chlorophyll?**\n\nLet's start with the basics. Chlorophyll is a green pigment found in plants, algae, and some types of bacteria. It's what gives plants their green color. But that's not all - chlorophyll plays a crucial role in helping plants make their own food through a p...",
+    "credibility": "\ud83d\udfe2 HIGH | The Collaborative International Dictionary | It is a well-established and reputable dictionary source.\n\ud83d\udfe1 MEDIUM | Wiktionary | It is a collaborative online dictionary with variable levels of ..."
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-05-20 14:54",
+    "query": "make the answer short like definition",
+    "summary": "[Tone: STUDENT]\n\nLet's break down this research context together. \n\nImagine you're taking a test or working on a project, and you come across a question that asks you to give a brief answer. This is called a short answer question, or SAQ for short. It's like when someone asks you a question in a con...",
+    "credibility": "\ud83d\udd34 LOW | Unknown educational or instructional resource | No specific author, publication, or date is provided to establish credibility.\n\ud83d\udd34 LOW | \"Create short answers\" | The reference lacks author, publ..."
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-05-20 14:57",
+    "query": "list domains in IT feilds",
+    "summary": "[Tone: STUDENT]\n\nI see you're familiar with some popular domains in computer science, such as web development, app development, machine learning, cloud computing, and data analytics. But, you're wondering what other areas are out there. Let me break it down for you.\n\nThink of computer science like a...",
+    "credibility": "\ud83d\udd34 LOW | Web development | No specific source provided\n\ud83d\udd34 LOW | App development | No specific source provided\n\ud83d\udd34 LOW | Machine Learning (ML) | No specific source provided\n\ud83d\udd34 LOW | Cloud | No specific sour..."
+  }
+]

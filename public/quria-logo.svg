@@ -1,0 +1,31 @@
+<svg width="100%" viewBox="0 0 680 400" role="img" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .glow-ring { fill: none; stroke: #00C896; stroke-width: 1.5; opacity: 0.3; }
+  .main-ring { fill: none; stroke: #00C896; stroke-width: 3; }
+  .tail { stroke: #00C896; stroke-width: 3; stroke-linecap: round; }
+  .dot { fill: #00C896; }
+  .orbit { fill: none; stroke: #00C896; stroke-width: 1; opacity: 0.4; stroke-dasharray: 3 5; }
+  .inner-ring { fill: none; stroke: #00C896; stroke-width: 0.8; opacity: 0.25; }
+  .word { font-family: Georgia, serif; font-size: 52px; font-weight: 400; fill: #ffffff; letter-spacing: 8px; }
+  .sub { font-family: Georgia, serif; font-size: 13px; font-weight: 400; fill: #00C896; letter-spacing: 5px; opacity: 0.85; }
+  .tick { stroke: #00C896; stroke-width: 1.5; opacity: 0.6; }
+</style>
+
+<circle cx="260" cy="190" r="80" class="glow-ring" />
+<circle cx="260" cy="190" r="95" class="inner-ring" />
+<circle cx="260" cy="190" r="110" class="inner-ring" />
+<circle cx="260" cy="190" r="58" class="main-ring" />
+<line x1="297" y1="227" x2="328" y2="258" class="tail" />
+<circle cx="332" cy="262" r="5" class="dot" />
+<ellipse cx="260" cy="190" rx="80" ry="22" transform="rotate(-30 260 190)" class="orbit" />
+<circle cx="316" cy="145" r="4" class="dot" />
+<circle cx="200" cy="232" r="2.5" class="dot" opacity="0.5"/>
+<line x1="260" y1="132" x2="260" y2="126" class="tick" />
+<line x1="318" y1="190" x2="324" y2="190" class="tick" />
+<line x1="202" y1="190" x2="196" y2="190" class="tick" />
+<line x1="260" y1="248" x2="260" y2="254" class="tick" />
+<text x="370" y="207" class="word">QURIA</text>
+<text x="372" y="233" class="sub">RESEARCH INTELLIGENCE</text>
+
+</svg>

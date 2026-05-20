@@ -1,0 +1,21 @@
+/* Replace default avatar with Quria logo */
+.cl-avatar-image {
+    content: url("/public/quria-logo.svg");
+}
+
+button[class*="avatar"] img,
+div[class*="avatar"] img {
+    content: url("/public/quria-logo.svg");
+}
+
+/* Hide grey circle and replace */
+.MuiAvatar-root {
+    background-color: transparent !important;
+    background-image: url("/public/quria-logo.svg") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.MuiAvatar-root span {
+    display: none !important;
+}
