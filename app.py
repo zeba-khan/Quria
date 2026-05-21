@@ -1,6 +1,5 @@
 import os
 import chainlit as cl
-import config_db
 from agents.roadmap_agent import roadmap_agent
 from graph.supervisor import run_pipeline
 from chat_history import save_to_history, get_history_text, clear_history
@@ -8,14 +7,6 @@ from export_utils import export_to_pdf
 from dotenv import load_dotenv
 
 load_dotenv()
-
-@cl.password_auth_callback
-def auth_callback(username: str, password: str):
-    valid_email = os.getenv("QURIA_EMAIL", "admin@quria.ai")
-    valid_password = os.getenv("QURIA_PASSWORD", "quria123")
-    if username == valid_email and password == valid_password:
-        return cl.User(identifier="admin", metadata={"role": "admin"})
-    return None
 
 @cl.on_chat_start
 async def start():
