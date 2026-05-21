@@ -1,3 +1,4 @@
+import os
 import chainlit as cl
 import config_db
 from agents.roadmap_agent import roadmap_agent
@@ -10,7 +11,9 @@ load_dotenv()
 
 @cl.password_auth_callback
 def auth_callback(username: str, password: str):
-    if username == "admin@quria.ai" and password == "quria123":
+    valid_email = os.getenv("QURIA_EMAIL", "admin@quria.ai")
+    valid_password = os.getenv("QURIA_PASSWORD", "quria123")
+    if username == valid_email and password == valid_password:
         return cl.User(identifier="admin", metadata={"role": "admin"})
     return None
 

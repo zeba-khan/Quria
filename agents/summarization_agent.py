@@ -26,4 +26,4 @@ Summarize the following research context:
 Provide a well-structured summary."""
 
     response = llm.invoke([HumanMessage(content=prompt)])
-    return f"[Tone: {tone.upper()}]\n\n{response.content}"
+    return response.content
