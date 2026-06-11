@@ -180,7 +180,7 @@ MIT License — feel free to use, modify and distribute.
 
 ## 👩‍💻 Built by
 
-**Zeba Khan** — AI/ML Developer
+**Zeba Khan** — AI/ML Developer .
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/zeba-khan-318057285)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/zeba-khan)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/zeba-khan)"." 
